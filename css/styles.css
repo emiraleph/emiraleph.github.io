@@ -1,0 +1,77 @@
+:root {
+    --button1-color: #3fbd0e;
+    --button2-color: #aa0c0c;
+    --button3-color: #2189df;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #22262e;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #6c124c;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Ultra', sans-serif;
+    font-size: 5em;
+}
+
+p {
+    font-family: 'Varela Round', sans-serif;
+    color: #f1ecec;
+}
+
+h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2em;
+    color: #f1ecec;
+}
+
+section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button.btn1,
+button.btn2,
+button.btn3 {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, filter 0.3s;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2em;
+}
+
+button.btn1:hover,
+button.btn2:hover,
+button.btn3:hover {
+    filter: brightness(60%);
+    transform: scale(1.1);
+}
+
+button.btn1 {
+    background-color: var(--button1-color);
+}
+
+button.btn2 {
+    background-color: var(--button2-color);
+}
+
+button.btn3 {
+    background-color: var(--button3-color);
+}

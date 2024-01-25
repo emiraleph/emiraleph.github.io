@@ -1,2 +1,2 @@
-# emiraleph.github.io
-Here is my incredible master pog hosting for my website uwu
+# EmirAleph's Website
+I'll soon make a nicer readme file.
